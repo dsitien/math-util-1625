@@ -74,12 +74,12 @@ public class TestMath {
     
     
 //màu đỏ, đúng ném ngoại lệ mà k giống ngoại lệ kì vọng
-    @Test(expected = NumberFormatException.class)
-    public void testGetFactorialGivenWrongArgumentThrowsException(){
-    
-        MathUtil.getFactorial(-5); // hàm @Test chạy ném về ngoại lệ
-    
-    }
+//    @Test(expected = NumberFormatException.class)
+//    public void testGetFactorialGivenWrongArgumentThrowsException(){
+//    
+//        MathUtil.getFactorial(5); // hàm @Test chạy ném về ngoại lệ
+//    
+//    }
     
     @Test(expected = IllegalArgumentException.class)
     public void testGetFactorialGivenWrongArgumentThrowsException1(){
