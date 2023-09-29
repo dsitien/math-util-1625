@@ -25,7 +25,7 @@ public class Main {
         // SO SÁNH KẾT QUẢ XEM NHƯ KÌ VỌNG HAY K
         
         long expected =123;// kì vọng hàm hói về 5!
-        int n =5;
+        int n =6;
         long actual = MathUtil.getFactorial(n);
         System.out.println("aaaaa");
         System.out.println("5!=120 (expected);actual: "+ actual);
